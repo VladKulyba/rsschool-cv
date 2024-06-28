@@ -21,7 +21,7 @@ The solution that I made:
 ```javascript
 
 const getTypeOfSentece = (sentence) => {
-	const lastChar = sentence[sentence.length -1];
+	const lastChar = sentence[sentence.length - 1];
 	if (lastChar === '?') {
 		return 'question';
 	} else if (lastChar === '!') {
