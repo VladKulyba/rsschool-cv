@@ -19,14 +19,14 @@ I am a QA engineer. My work is primarily focused on improving quality of Web app
 The instruction was next: "Create a fuction which allows to split general sentence from question"  
 The solution that I made:
 ```
-const getTypeOfSentece = (sentence) => {
-	const lastChar = sentence[sentence.length -1];
-	if (lastChar === '?') {
-		return 'question';
-	} else if (lastChar === '!') {
-		return 'exclamation!';
-	} else 
-	return 'general';
+**const** getTypeOfSentece = (sentence) => {
+	**const** lastChar = sentence[sentence.length -1];
+	**if** (lastChar === '?') {
+		**return** 'question';
+	} **else if** (lastChar === '!') {
+		**return** 'exclamation!';
+	} **else** 
+	**return** 'general';
 }
 
 ```
