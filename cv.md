@@ -1,7 +1,7 @@
 # Vlad Kulyba #
 ![My photo](/image/ava.jpg)
 
-## Mycontact info ##
+## My contact info ##
 * Phone number: +375447609386
 * Email: <vladislavkulyba@gmail.com>
 * GitHub: [VladKulyba](https://github.com/VladKulyba "Ссылка на GitHub")
@@ -16,17 +16,18 @@ I am a QA engineer. My work is primarily focused on improving quality of Web app
 * Experience in testing Windows and Linux desktop applications
 
 ## Code Example ##
-The instruction was next: "Create a fuction which allows to split general sentence from question"  
+The instruction was next: *"Create a function which allows to split general sentence from question"*  
 The solution that I made:
-```
-**const** getTypeOfSentece = (sentence) => {
-	**const** lastChar = sentence[sentence.length -1];
-	**if** (lastChar === '?') {
-		**return** 'question';
-	} **else if** (lastChar === '!') {
-		**return** 'exclamation!';
-	} **else** 
-	**return** 'general';
+```javascript
+
+const getTypeOfSentece = (sentence) => {
+	const lastChar = sentence[sentence.length -1];
+	if (lastChar === '?') {
+		return 'question';
+	} else if (lastChar === '!') {
+		return 'exclamation!';
+	} else 
+	return 'general';
 }
 
 ```
