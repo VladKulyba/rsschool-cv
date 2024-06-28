@@ -14,6 +14,7 @@ I am a QA engineer. My work is primarily focused on improving quality of Web app
 * Performing different test design techniques
 * Requirements analysis and clarification
 * Experience in testing Windows and Linux desktop applications
+* HTML & CSS  
 
 ## Code Example ##
 The instruction was next: *"Create a function which allows to split general sentence from question"*  
@@ -36,7 +37,7 @@ const getTypeOfSentece = (sentence) => {
 Belarusian State University of Informatics and Radioelectronics  
 Faculty of Radioengineering and Electronics  
 Specialty: Solid-State Electronics, Radioelectronic Components, Micro- and Nanoelectronics, Quantum Effect Devices  
-**Master of Science in Engineering**
+**Master of Science in Engineering**  
 
 ## Languages ##
 * **Russian** (native speaker)
