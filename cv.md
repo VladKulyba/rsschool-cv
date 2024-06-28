@@ -16,7 +16,7 @@ I am a QA engineer. My work is primarily focused on improving quality of Web app
 * Experience in testing Windows and Linux desktop applications
 
 ## Code Example ##
-The instruction was next: "Create a fuction which allows to split general sentence from question"
+The instruction was next: "Create a fuction which allows to split general sentence from question"  
 The solution that I made:
 ```
 const getTypeOfSentece = (sentence) => {
@@ -32,9 +32,9 @@ const getTypeOfSentece = (sentence) => {
 ```
 
 ## Education ##
-Belarusian State University of Informatics and Radioelectronics
-Faculty of Radioengineering and Electronics
-Specialty: Solid-State Electronics, Radioelectronic Components, Micro- and Nanoelectronics, Quantum Effect Devices
+Belarusian State University of Informatics and Radioelectronics  
+Faculty of Radioengineering and Electronics  
+Specialty: Solid-State Electronics, Radioelectronic Components, Micro- and Nanoelectronics, Quantum Effect Devices  
 **Master of Science in Engineering**
 
 ## Languages ##
