@@ -1,1 +1,126 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="./assets/pics/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV Vlad Kulyba</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#contacts">My contact info</a></li>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#code">Code Example</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#languages">Languages</a></li>
+			</ul>
+		</nav>
+		<h1 class="intro">
+			Uladzislau Kulyba
+		</h1>
+		<img src="/rsschool-cv/assets/images/ava.jpg" alt="photo" width="400">
+	</header>
+	<main>
+		<section class="sections" id="contacts">
+			<h2>My contact info</h2>
+				<ul type="none">
+					<li><a href="tel:+375447609386" target="_blank">Phone number: +375447609386</a></li>
+					<li><span>Send an email: </span><a href="mailto:vladislavkulyba@gmail.com" target="_blank"> Click here</a></li>
+					<li><a href="https://discordapp.com/users/703697089355448478">Discord</a></li>
+				</ul>	
+		</section>
+		<section class="sections" id="about-me">
+			<h2>About me</h2>
+			<p>Hi! My name is Uladzislau, but you can call me Vlad. I am a manual QA engineer. My work is primarily focused on improving quality of Web application. I have used different test design techniques such as equivalence partitioning, boundary values, all-pairs testing and state-transition diagram to create clearly and easy-understandable test documentation. I have also worked with many useful tools. I am very keen on JavaScript right now and my goal here is to improve my knowledge and pick up some programming skills.</p>
+		</section>
+		<section class="sections" id="skills">
+			<h2>Skills</h2>
+			<h3>Manual QA skills</h3>
+				<ol>
+					<li>Strong experience in manual functional testing: black-box, grey-box testing, positive, negative testing, cross-browser and cross-platform testing, integration testing, regression testing, smoke testing, sanity testing, exploratory testing</li>
+					<li>Experience in test design techniques: equivalence partitioning, boundary values testing, all-pairs testing, error guessing, state transition diagrams</li>
+					<li>Analysis of testing process and providing new solutions based on best practices</li>
+					<li>Requirements analysis and clarification</li>
+					<li>Experience in working by Agile methodology</li>
+					<li>Experience in testing Windows and Linux desktop applications</li>
+				</ol>
+			<h3>Tools and Technologies</h3>
+				<table>
+					<tr>
+						<th>Domain</th>
+						<th>Name</th>
+					</tr>
+					<tr>
+						<td>OS Platform:</td>
+						<td>Microsoft Windows, Linux, Mac OS, Android</td>
+					</tr>
+					<tr>
+						<td>Bug Tracking Tools:</td>
+						<td>Github, Jira</td>
+					</tr>
+					<tr>
+						<td>Test Case Management Tools:</td>
+						<td>TestQuality, TestRail, Qase, Azure Test plan</td>
+					</tr>
+					<tr>
+						<td>Databases:</td>
+						<td>MySQL, SQLite, MS SQL Server</td>
+					</tr>
+					<tr>
+						<td>DevTools:</td>
+						<td>Chrome DevTools</td>
+					</tr>
+					<tr>
+						<td>Web Technologies:</td>
+						<td>HTML, XML, JSON</td>
+					</tr>
+					<tr>
+						<td>API testing tools:</td>
+						<td>Postman, Visual studio code, Swagger</td>
+					</tr>
+				</table>
+		</section>
+		<section class="sections" id="code">
+			<h2>Code example</h2>
+			<p>
+				The instruction was next: <i>"Create a function which allows to split general sentence from question"</i>
+			</p>
+			<pre>
+				<code>
+					const getTypeOfSentece = (sentence) => {
+					const lastChar = sentence[sentence.length - 1];
+					if (lastChar === '?') {
+						return 'question';
+					} else if (lastChar === '!') {
+						return 'exclamation!';
+					} else 
+					return 'general';
+				}
+				</code>
+			</pre>
+		</section>
+		<section class="sections" id="education">
+			<h2>Education</h2>
+			<p class="university">Belarusian State University of Informatics and Radioelectronics</p>
+			<p class="faculty">Faculty of Radioengineering and Electronics</p>
+			<p class="speciality">Specialty: Solid-State Electronics, Radioelectronic Components, Micro- and Nanoelectronics, Quantum Effect Devices</p>
+			<p class="degree">Master of Science in Engineering</p>
+		</section>
+		<section class="sections" id="languages">
+			<h2>Languages</h2>
+			<p><b>Russian:</b> Native speaker</p>
+			<p><b>English:</b> B1 - Intermediate</p>
+		</section>
+	</main>
+	<footer>
+		<a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+			<img src="./assets/pics/rs_school_js.svg" alt="rs_school_logo" width="100">
+		</a>
+		<span>&#169 2024</span>
+		<a target="_blank" href="https://github.com/VladKulyba">Me on GitHub</a>
+	</footer>
+</body>
+</html>
