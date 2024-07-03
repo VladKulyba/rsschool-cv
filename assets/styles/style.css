@@ -1,1 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Hammersmith+One&family=Madimi+One&family=Rakkas&family=Seaweed+Script&display=swap');
 
+header {
+	margin: 0;
+}
+
+.menu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #039598;
+
+}
+
+.menu-links {
+	color: rgb(255, 255, 0);
+	padding: 0 80px;
+	text-decoration: none;
+	font-family: "Madimi One", sans-serif;
+}
+
+.ava {
+	border-radius: 50%;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 64px;
+}
+
+header {
+	text-align: center;
+	font-family: "Charmonman", sans-serif;
+	height: 100vh;
+}
+
+.sections {
+	background-color: #039598;
+	color: aliceblue;
+}
+
+.skills {
+	display: flex;
+	align-items: stretch;
+  justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	height: 100%;
+}
+
+.skills-div {
+	width: 40%;
+	align-self: center;
+}
+
+.skills:nth-child(1) {
+	flex-grow: 1;
+	flex-basis: 100%;
+}
