@@ -45,6 +45,7 @@ header {
 	font-family: "Charmonman", sans-serif;
 	font-size: 32px;
 	text-align: center;
+	margin: 30% 0;
 }
 
 body {
@@ -130,7 +131,7 @@ footer {
 	padding: 0 35px;
 	background-color: #ffffff;
 	display: flex;
-	justify-content: space-around;
+	justify-content: baseline;
 	flex-direction: column;
 }
 
@@ -139,17 +140,24 @@ footer {
 	background-color: #039878cb;
 	line-height: 30px;
 	color:#ffffff ;
+	font-family: "Hammersmith One", sans-serif;
 }
 
 .main-left h2 {
 	background-color: gray;
 	width:50%;
+	text-align: center;
+	margin: auto;
+	color: #ffffff;
 }
 
-
+.left-sections {
+	margin: 20px;
+	font-family: "Hammersmith One", sans-serif;
+}
 
 .main-right h2 {
-	font-size: 2rem;
+	font-size: 3rem;
 	text-align: center;
 }
 
@@ -160,6 +168,15 @@ footer {
 	font-weight: 800;
 }	
 
+.contacts{
+	text-align: center;
+}
+
+.contacts a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
 .footer {
 	display: flex;
 	flex-direction: row;
