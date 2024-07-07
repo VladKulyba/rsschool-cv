@@ -15,9 +15,9 @@
 					<li><a href="#about-me" class="menu-links">About Me</a></li>
 					<li><a href="#skills" class="menu-links">Skills</a></li>
 					<li><a href="#code" class="menu-links">Code Example</a></li>
+					<li><a href="#contacts" class="menu-links">My contact info</a></li>
 					<li><a href="#education" class="menu-links">Education</a></li>
 					<li><a href="#languages" class="menu-links">Languages</a></li>
-					<li><a href="#contacts" class="menu-links">My contact info</a></li>
 				</ul>
 		</nav>
 	</header>
@@ -49,10 +49,10 @@
 				<p class="speciality">Specialty: Solid-State Electronics, Radioelectronic Components, Micro- and Nanoelectronics, Quantum Effect Devices</p>
 				<p class="degree">Master of Science in Engineering</p>
 			</section>
-			<section class="sections left-sections" id="languages">
+			<section class="sections left-sections languages-class" id="languages">
 				<h2>Languages</h2>
-				<p><b>Russian:</b> Native speaker</p>
-				<p><b>English:</b> B1 - Intermediate</p>
+				<p><span>Russian: </span> Native speaker</p>
+				<p><span>English: </span>B1 - Intermediate</p>
 			</section>
 		</aside>
 		<div class="main-right">
@@ -65,12 +65,12 @@
 				<article class="skills-div2">
 					<h3>Manual QA skills</h3>
 					<ul>
-						<li>Strong experience in manual functional testing: black-box, grey-box testing, positive, negative testing, cross-browser and cross-platform testing, integration testing, regression testing, smoke testing, sanity testing, exploratory testing</li>
-						<li>Experience in test design techniques: equivalence partitioning, boundary values testing, all-pairs testing, error guessing, state transition diagrams</li>
-						<li>Analysis of testing process and providing new solutions based on best practices</li>
-						<li>Requirements analysis and clarification</li>
-						<li>Experience in working by Agile methodology</li>
-						<li>Experience in testing Windows and Linux desktop applications</li>
+						<li><span>Strong experience in manual functional testing: </span> black-box, grey-box testing, positive, negative testing, cross-browser and cross-platform testing, integration testing, regression testing, smoke testing, sanity testing, exploratory testing</li>
+						<li><span>Experience in test design: </span> equivalence partitioning, boundary values testing, all-pairs testing, error guessing, state transition diagrams</li>
+						<li><span>Analysis of testing process and providing new solutions based on best practices </span></li>
+						<li><span>Requirements analysis and clarification </span></li>
+						<li><span>Experience in working by Agile methodology </span></li>
+						<li><span>Experience in testing Windows and Linux desktop applications </span></li>
 					</ul>
 				</article>
 				<article class="skills-div3">
@@ -117,16 +117,16 @@
 				The instruction was next: <i>"Create a function which allows to split general sentence from question"</i>
 			</p>
 			<pre>
-				<code>
-					const getTypeOfSentece = (sentence) => {
-					const lastChar = sentence[sentence.length - 1];
-					if (lastChar === '?') {
-						return 'question';
-					} else if (lastChar === '!') {
-						return 'exclamation!';
-					} else 
-					return 'general';
-				}
+				<code class="code">
+<span class="code-conditions">const</span> <span class="function-name">getTypeOfSentence</span> <span class="code-signs">=</span> (sentence) <span class="code-signs">=></span> {
+	<span class="code-conditions">const</span> lastChar <span class="code-signs">=</span> sentence[sentence.<span class="code-method">length</span> <span class="code-signs">-</span> <span class="code-number">1</span>];
+	<span class="code-conditions">if </span> (lastChar <span class="code-signs">===</span> '?') {
+	<span class="code-conditions">return</span> <span class="code-values">'question'</span>;
+	} <span class="code-conditions">else if</span> (lastChar <span class="code-signs">===</span> '!') {
+	<span class="code-conditions">return</span> <span class="code-values">'exclamation!'</span>;
+	} <span class="code-conditions">else</span>
+	<span class="code-conditions">return</span> <span class="code-values">'general'</span>;
+	}
 				</code>
 			</pre>
 		</section>
@@ -136,6 +136,7 @@
 	<footer class="footer">
 		<div class="github-img-container">
 			<p>Tap on the image to open my Github</p>
+			<img src="./assets/pics/arrow-right-long.svg" alt="arrow-image" class="arrow">
 			<a target="_blank" href="https://github.com/VladKulyba"><img class="github-img" src="./assets/pics/GitHub.svg" alt="github-pic"></a>
 		</div>
 		<div class="rss-link">

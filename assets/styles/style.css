@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Hammersmith+One&family=Madimi+One&family=Rakkas&family=Seaweed+Script&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -33,6 +36,15 @@ header {
 	font-size: 24px;
 }
 
+.menu-links:hover { 
+	color: rgba(0, 0, 0, 0.575); 
+}
+
+.menu-links {
+  transition: .5s;
+}
+
+
 .ava {
 	border-radius: 30%;
 	border: 15px solid #e6f5f4;
@@ -51,6 +63,7 @@ header {
 body {
 	margin: 0px auto;
 	max-width: 1440px;
+	box-shadow: 10px 0 30px rgba(0, 0, 0, 0.336);
 }
 
 h1 {
@@ -89,7 +102,18 @@ h1 {
 .skills-div2 {
 	flex-grow: 1;
 	flex-basis: 40%;
-	margin: 15px;
+	margin: 15px 5px;
+	color: rgba(0, 0, 0, 0.562);
+}
+
+.skills-div2 ul {
+	list-style-type: circle;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.skills-div2 span {
+	color: white;
 }
 
 .skills-div3 {
@@ -109,10 +133,10 @@ table, th, td {
 }
 
 .left-table {
-	background-color: rgba(255, 255, 0, 0.384);
+	background-color: rgba(54, 54, 54, 0.541);
 }
 th{
-	background-color: hsla(27, 98%, 54%, 0.438);
+	background-color: hsla(0, 0%, 0%, 0.678);
 }
 h3 {
 	text-align: center;
@@ -143,6 +167,34 @@ footer {
 	font-family: "Hammersmith One", sans-serif;
 }
 
+pre {
+	background-color: #F6F8FA;
+	color: black;
+	padding: 0 30px;
+}
+.code {
+	font-family: "Source Code Pro", monospace;
+}
+
+.code-conditions{
+	color: #CF222E;
+}
+.code-signs {
+	color: #0550AE;
+}
+.function-name {
+	color: #6639BA;
+}
+.code-method {
+	color: #0550AE;
+}
+.code-number {
+	color: #0550AE;
+}
+
+.code-values {
+	color: #0A3069
+}
 .main-left h2 {
 	background-color: gray;
 	width:50%;
@@ -177,6 +229,26 @@ footer {
 	color: black;
 	font-size: 20px;
 }
+
+.languages-class p {
+	font-size: 1.5em;
+}
+.languages-class span {
+	color: #25B195;
+	font-weight: 900;
+}
+
+#education {
+	padding: 30px;
+	background-color: #25b1954f;
+	background-image: url("../pics/bsuir.svg");
+	background-repeat: no-repeat;
+	background-size: 45px;
+	background-position-x: right;
+	background-position-y: bottom;
+	border: 2px solid black;
+	font-size: 1.2em;
+}
 .footer {
 	display: flex;
 	flex-direction: row;
@@ -206,4 +278,25 @@ footer {
 .rss-link span{
 	padding: 10px;
 
+}
+
+@keyframes arrow {
+	from {
+		transform: translateX(15px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+
+.arrow {
+	animation: 1s linear 1s infinite reverse running arrow;
+	width: 30px;
+	margin-left: 10px;
+}
+
+.github-img-container p {
+	padding-top: 2px;
+	padding-left: 10px;
 }
