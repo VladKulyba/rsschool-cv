@@ -61,6 +61,13 @@ header {
 	margin: 20% 0;
 }
 
+#role {
+	font-family: "Charmonman", sans-serif;
+	font-size: 32px;
+	background-color: white;
+	color: black;
+}
+
 body {
 	margin: 0px auto;
 	max-width: 1440px;
