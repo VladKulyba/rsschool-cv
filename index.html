@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="./assets/pics/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<title>CV Uladzislau Kulyba</title>
+	<link rel="stylesheet" href="./assets/styles/style.css">
+	<link rel="icon" type="image/x-icon" href="./assets/pics/favicon.ico">
+</head>
+<body>
+	<header>
+		<nav class="menu">
+				<ul class="site-navigation" type="none">
+					<li><a href="#about-me" class="menu-links">About Me</a></li>
+					<li><a href="#skills" class="menu-links">Skills</a></li>
+					<li><a href="#code" class="menu-links">Code Example</a></li>
+					<li><a href="#contacts" class="menu-links">My contact info</a></li>
+					<li><a href="#education" class="menu-links">Education</a></li>
+					<li><a href="#languages" class="menu-links">Languages</a></li>
+				</ul>
+		</nav>
+	</header>
+	<main class="main-container">
+		<aside class="main-left">
+			<section class="intro">
+				<img src="/rsschool-cv/assets/images/ava.jpg" alt="photo" class="ava">
+				<h1>Uladzislau Kulyba</h1>
+				<p>QA engineer</p>
+			</section>
+			<section class="sections left-sections" id="contacts">
+				<h2>Contacts</h2>
+				<ul type="none" class="contacts">
+					<li>
+						<a href="tel:+375447609386" target="_blank"><img src="./assets/pics/telephone.svg" alt="phone-icon" width="50%" title=" +375447609386"> <br>+375447609386</a>
+					</li>
+					<li>
+						<a href="mailto:vladislavkulyba@gmail.com" target="_blank"> <img src="./assets/pics/email.svg" alt="email-icon" width="50%" title="Send an email"><br>Send an email</a>
+					</li>
+					<li>
+						<a href="https://discordapp.com/users/703697089355448478"><img src="./assets/pics/message.svg" alt="discord-icon" width="50%" title="Discord"><br>Discord</a>
+					</li>
+				</ul>	
+			</section>
+			<section class="sections left-sections" id="education">
+				<h2>Education</h2>
+				<p class="university">Belarusian State University of Informatics and Radioelectronics</p>
+				<p class="faculty">Faculty of Radioengineering and Electronics</p>
+				<p class="speciality">Specialty: Solid-State Electronics, Radioelectronic Components, Micro- and Nanoelectronics, Quantum Effect Devices</p>
+				<p class="degree">Master of Science in Engineering</p>
+			</section>
+			<section class="sections left-sections languages-class" id="languages">
+				<h2>Languages</h2>
+				<p><span>Russian: </span> Native speaker</p>
+				<p><span>English: </span>B1 - Intermediate</p>
+			</section>
+		</aside>
+		<div class="main-right">
+		<section class="sections" id="about-me">
+			<h2>About me</h2>
+			<p>Hi! My name is <span class="name">Uladzislau</span>, but you can call me <span class="short-name">Vlad</span>. I am <span class="job">a manual QA engineer</span>. My work is primarily focused on improving quality of Web application. I have used different test design techniques such as equivalence partitioning, boundary values, all-pairs testing and state-transition diagram to create clearly and easy-understandable test documentation. I have also worked with many useful tools. I am very keen on JavaScript right now and my goal here is to improve my knowledge and pick up some programming skills.</p>
+		</section>
+		<section class="sections skills" id="skills">
+				<h2 class="skills-div1">Skills</h2>
+				<article class="skills-div2">
+					<h3>Manual QA skills</h3>
+					<ul>
+						<li><span>Strong experience in manual functional testing: </span> black-box, grey-box testing, positive, negative testing, cross-browser and cross-platform testing, integration testing, regression testing, smoke testing, sanity testing, exploratory testing</li>
+						<li><span>Experience in test design: </span> equivalence partitioning, boundary values testing, all-pairs testing, error guessing, state transition diagrams</li>
+						<li><span>Analysis of testing process and providing new solutions based on best practices </span></li>
+						<li><span>Requirements analysis and clarification </span></li>
+						<li><span>Experience in working by Agile methodology </span></li>
+						<li><span>Experience in testing Windows and Linux desktop applications </span></li>
+					</ul>
+				</article>
+				<article class="skills-div3">
+					<h3>Tools and Technologies</h3>
+					<table>
+						<tr>
+							<th>Domain</th>
+							<th>Name</th>
+						</tr>
+						<tr>
+							<td class="left-table">OS Platform:</td>
+							<td>Microsoft Windows, Linux, Mac OS, Android</td>
+						</tr>
+						<tr>
+							<td class="left-table">Bug Tracking Tools:</td>
+							<td>Github, Jira</td>
+						</tr>
+						<tr>
+							<td class="left-table">Test Case Management Tools:</td>
+							<td>TestQuality, TestRail, Qase, Azure Test plan</td>
+						</tr>
+						<tr>
+							<td class="left-table">Databases:</td>
+							<td>MySQL, SQLite, MS SQL Server</td>
+						</tr>
+						<tr>
+							<td class="left-table">DevTools:</td>
+							<td>Chrome DevTools</td>
+						</tr>
+						<tr>
+							<td class="left-table">Web Technologies:</td>
+							<td>HTML, XML, JSON</td>
+						</tr>
+						<tr>
+							<td class="left-table">API testing tools:</td>
+							<td>Postman, Visual studio code, Swagger</td>
+						</tr>
+					</table>
+				</article>
+		</section>
+		<section class="sections" id="code">
+			<h2>Code example</h2>
+			<p>
+				The instruction was next: <i>"Create a function which allows to split general sentence from question"</i>
+			</p>
+			<pre>
+				<code class="code">
+<span class="code-conditions">const</span> <span class="function-name">getTypeOfSentence</span> <span class="code-signs">=</span> (sentence) <span class="code-signs">=></span> {
+	<span class="code-conditions">const</span> lastChar <span class="code-signs">=</span> sentence[sentence.<span class="code-method">length</span> <span class="code-signs">-</span> <span class="code-number">1</span>];
+	<span class="code-conditions">if </span> (lastChar <span class="code-signs">===</span> '?') {
+	<span class="code-conditions">return</span> <span class="code-values">'question'</span>;
+	} <span class="code-conditions">else if</span> (lastChar <span class="code-signs">===</span> '!') {
+	<span class="code-conditions">return</span> <span class="code-values">'exclamation!'</span>;
+	} <span class="code-conditions">else</span>
+	<span class="code-conditions">return</span> <span class="code-values">'general'</span>;
+	}
+				</code>
+			</pre>
+		</section>
+		</div>
 
+	</main>
+	<footer class="footer">
+		<div class="github-img-container">
+			<p>Tap on the image to open my Github</p>
+			<img src="./assets/pics/arrow-right-long.svg" alt="arrow-image" class="arrow">
+			<a target="_blank" href="https://github.com/VladKulyba"><img class="github-img" src="./assets/pics/GitHub.svg" alt="github-pic"></a>
+		</div>
+		<div class="rss-link">
+			<a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+				<img src="./assets/pics/rs_school_js.svg" alt="rs_school_logo" width="100">
+			</a>
+			<span>&nbsp &#169 2024</span>
+		</div>
+	</footer>
+</body>
+</html>

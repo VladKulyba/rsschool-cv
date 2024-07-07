@@ -1,5 +1,5 @@
 # Vlad Kulyba #
-![My photo](/image/ava.jpg)
+![My photo](/assets/images/ava.jpg)
 
 ## My contact info ##
 * Phone number: +375447609386

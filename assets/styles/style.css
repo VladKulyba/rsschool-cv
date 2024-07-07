@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Hammersmith+One&family=Madimi+One&family=Rakkas&family=Seaweed+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+header {
+	margin: 0;
+	padding: 20px 0;
+	background-color: #039878cb;
+}
+
+.menu {
+	margin: 0;
+	width: 100%;
+	top: 0;
+
+}
+.site-navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0;
+}
+
+.menu-links {
+	color: rgb(255, 255, 255);
+	padding: 20px auto;
+	font-family: "Madimi One", sans-serif;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.menu-links:hover { 
+	color: rgba(0, 0, 0, 0.575); 
+}
+
+.menu-links {
+  transition: .5s;
+}
+
+
+.ava {
+	border-radius: 30%;
+	border: 15px solid #e6f5f4;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+.intro	{
+	font-family: "Charmonman", sans-serif;
+	font-size: 32px;
+	text-align: center;
+	margin: 30% 0;
+}
+
+body {
+	margin: 0px auto;
+	max-width: 1440px;
+	box-shadow: 10px 0 30px rgba(0, 0, 0, 0.336);
+}
+
+h1 {
+	font-size: 32px;
+	margin-bottom: 0;
+}
+
+.sections {
+	padding: 25px;
+}
+
+#about-me {
+	margin: 200px 50px;
+	font-family: "Hammersmith One", sans-serif;
+}
+
+#about-me p{
+	font-size: 24px;
+	text-align: justify;
+}
+.skills {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.skills-div1 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.skills-div2 {
+	flex-grow: 1;
+	flex-basis: 40%;
+	margin: 15px 5px;
+	color: rgba(0, 0, 0, 0.562);
+}
+
+.skills-div2 ul {
+	list-style-type: circle;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.skills-div2 span {
+	color: white;
+}
+
+.skills-div3 {
+	flex-grow: 1;
+	flex-basis: 40%;
+	margin: 15px;
+	padding:5px;
+}
+
+table, th, td {
+	border: 2px solid #ffffff;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 5px;
+	overflow-x:auto;
+	margin-left: 50px ;
+}
+
+.left-table {
+	background-color: rgba(54, 54, 54, 0.541);
+}
+th{
+	background-color: hsla(0, 0%, 0%, 0.678);
+}
+h3 {
+	text-align: center;
+}
+footer {
+	background-color: #e6f5f4;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-left {
+	width: 70%;
+	padding: 0 35px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: baseline;
+	flex-direction: column;
+}
+
+.main-right {	
+	padding: 60px;
+	background-color: #039878cb;
+	line-height: 30px;
+	color:#ffffff ;
+	font-family: "Hammersmith One", sans-serif;
+}
+
+pre {
+	background-color: #F6F8FA;
+	color: black;
+	padding: 0 30px;
+}
+.code {
+	font-family: "Source Code Pro", monospace;
+}
+
+.code-conditions{
+	color: #CF222E;
+}
+.code-signs {
+	color: #0550AE;
+}
+.function-name {
+	color: #6639BA;
+}
+.code-method {
+	color: #0550AE;
+}
+.code-number {
+	color: #0550AE;
+}
+
+.code-values {
+	color: #0A3069
+}
+.main-left h2 {
+	background-color: gray;
+	width:50%;
+	text-align: center;
+	margin: auto;
+	color: #ffffff;
+}
+
+.left-sections {
+	margin: 20px;
+	font-family: "Hammersmith One", sans-serif;
+}
+
+.main-right h2 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.name, .short-name, .job {
+	font-family: "Charmonman", sans-serif;
+	color: black;
+	font-size: 1.2em;
+	font-weight: 800;
+}	
+
+.contacts{
+	text-align: center;
+}
+
+.contacts a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.languages-class p {
+	font-size: 1.5em;
+}
+.languages-class span {
+	color: #25B195;
+	font-weight: 900;
+}
+
+#education {
+	padding: 30px;
+	background-color: #25b1954f;
+	background-image: url("../pics/bsuir.svg");
+	background-repeat: no-repeat;
+	background-size: 45px;
+	background-position-x: right;
+	background-position-y: bottom;
+	border: 2px solid black;
+	font-size: 1.2em;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.github-img-container{
+	display: flex;
+	flex-direction: row;
+}
+.github-img-container p{
+	text-align: center;
+	font-family: "Madimi One", sans-serif;
+}
+.github-img {
+	width: 80px;
+}
+
+.rss-link {
+	display: flex;
+	flex-direction: row;
+	font-family: "Madimi One", sans-serif;
+	margin-top: 10px;
+}
+
+.rss-link span{
+	padding: 10px;
+
+}
+
+@keyframes arrow {
+	from {
+		transform: translateX(15px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+
+.arrow {
+	animation: 1s linear 1s infinite reverse running arrow;
+	width: 30px;
+	margin-left: 10px;
+}
+
+.github-img-container p {
+	padding-top: 2px;
+	padding-left: 10px;
+}
