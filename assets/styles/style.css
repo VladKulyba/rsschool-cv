@@ -58,7 +58,7 @@ header {
 	font-family: "Charmonman", sans-serif;
 	font-size: 32px;
 	text-align: center;
-	margin: 30% 0;
+	margin: 20% 0;
 }
 
 body {
@@ -68,8 +68,10 @@ body {
 }
 
 h1 {
-	font-size: 52px;
+	font-size: 50px;
+	font-family: "Charmonman", sans-serif;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 .sections {
